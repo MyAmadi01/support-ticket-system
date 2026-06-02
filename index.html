@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Support Ticket System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📩 Customer Support System</h1>
+
+  <form id="ticketForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Complaint" required></textarea>
+    <button type="submit">Send Ticket</button>
+  </form>
+
+  <h2>📊 Tickets</h2>
+  <div id="ticketList"></div>
+<h2>FAQ</h2>
+
+<h4>How long does support take?</h4>
+<p>Most tickets are answered within 24 hours.</p>
+
+<h4>How do I reset my password?</h4>
+<p>Click the "Forgot Password" link on the login page.</p>
+
+<h4>How can I track my ticket?</h4>
+<p>Use your Ticket ID when contacting support.</p>
+  <script src="app.js"></script>
+</body>
+</html>
